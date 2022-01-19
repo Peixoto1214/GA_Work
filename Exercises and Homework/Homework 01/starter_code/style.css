@@ -1,0 +1,11 @@
+table{
+    border: solid 3px black;
+}
+td{
+    
+    background-color: #eeeeee;
+}
+th{
+    color: white;
+    background-color: black;
+}
