@@ -18,3 +18,9 @@ th{
 .xia-image{
     float: right;
 }
+a{
+    text-decoration: none;
+}
+ol{
+    list-style-type: none;
+}
