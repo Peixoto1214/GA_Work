@@ -4,5 +4,8 @@ img{
     object-fit: cover;
 }
 body{
-    background: linear-gradient(45deg white, gray) 
+    background: linear-gradient(45deg white, gray) ;
+    width: 800px;
+    min-width: 600px;
+    margin: 0 auto;
 }
