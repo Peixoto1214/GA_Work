@@ -1,11 +1,12 @@
 
-.exerciseFooter, .exerciseMain {
+.exerciseFooter, .exerciseMain, .exerciseHeader {
     margin: 0 10px 10px 10px;
 }
 
 .exerciseHeader {
-
-
+    display: flex;
+    overflow:hidden;
+    justify-content: space-between;
 }
 
 .exerciseHeaderLogo {
@@ -15,15 +16,22 @@
 }
 
 .exerciseHeaderNav {
-
+    
+    
+   
 }
 
 .exerciseHeaderNav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    justify-content: flex-end;
 
 }
 
 .exerciseHeaderNav ul li {
-
+    list-style: none;
+    
 
 }
 
@@ -31,31 +39,52 @@
 /* Main */
 
 .exerciseMain {
+    display: flex;
+    gap: 10px;
 
 }
 
 .exerciseMainLeftNav {
+   flex-grow: 1;
 
 
 }
 
 .exerciseMainContent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 4;
+    gap: 10px;
+    
 
 
 }
 
 .exerciseMainContent > * {
     margin: 0;
+    
 }
 
 .exerciseMainContentBanner {
+    width: 100%;
+    
 
 }
 
 .exerciseMainContentSubBanner {
-
+    width: 70%;
 }
 
-.exerciseMainContentBlock {
+.exerciseMainContentBlockbanner {
+    width: 30%;
 
+
+}
+.dp_contentbanner{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+.exerciseMainContentBlock{
+    flex-grow: 1;
 }

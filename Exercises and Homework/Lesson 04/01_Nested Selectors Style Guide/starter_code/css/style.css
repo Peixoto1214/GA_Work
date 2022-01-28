@@ -32,8 +32,50 @@ a {
 /* Core Styles */
 .relaxr-corestyles p {
   font-weight: normal;
+  font-size: 26px;
+  
 }
-
+.relaxr-corestyles h1,
+.relaxr-corestyles h2,
+.relaxr-corestyles h3,
+.relaxr-corestyles h4,
+.relaxr-corestyles h5,
+.relaxr-corestyles h6{
+  color:#033048;
+  font-weight: 600;
+  margin-top: 16px;
+}
+.relaxr-corestyles h1{
+  font-size: 40px;
+}
+.relaxr-corestyles h2{
+  font-size: 32px;
+}
+.relaxr-corestyles h3{
+  font-size: 26px;
+}
+.relaxr-corestyles h4{
+  font-size: 20px;
+}
+.relaxr-corestyles h5{
+  font-size: 18px;
+}
+.relaxr-corestyles h6{
+  font-size: 16px;
+}
+.relaxr-corestyles p.featuredText{
+  font-style: italic;
+  font-size: 30px;
+}
+.relaxr-corestyles p.featuredText em{
+  font-style: normal;
+}
+.relaxr-corestyles strong{
+  font-weight: bold;
+}
+.relaxr-corestyles em{
+  font-style: italic;
+}
 
 
 

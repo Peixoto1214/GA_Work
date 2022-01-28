@@ -4,28 +4,30 @@
 }
 
 .exerciseMainFeatures {
-
-
+    display: flex;
+    gap: 10px;
 }
 
 .exerciseMainFeatures .exerciseMarketingFeature {
-
+    gap: 10px;
+    width: 50%;
 
 }
 
 .exerciseMainFeatures .exerciseMarketingFeature:first-child {
-
+  
+}
+  
+.exerciseAdditionalFeatures {
+    display: flex;
+    gap: 10px;
 }
 
-.exerciseAdditionalFeatures {
+.exerciseAdditionalFeatures .exerciseMarketingFeature {
+    width: 33%;
 
 }
 
 .exerciseAdditionalFeatures .exerciseMarketingFeature {
-
-
-}
-
-.exerciseAdditionalFeatures .exerciseMarketingFeature:first-child {
-
+    margin-top: 10px;
 }
