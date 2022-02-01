@@ -26,6 +26,7 @@ p {
 /* https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg */
 body{
   width: 1024px;
+  margin: 0 auto;
 }
 a{
   text-decoration: none;
