@@ -1,0 +1,68 @@
+/*
+
+Exercise Notes:
+
+Use Flex-wrap, flex-direction, and flex to control how the header spaces and sizes.  A good minimum for flex might be 320px;
+
+
+
+
+ */
+
+.exerciseFooter, .exerciseMain, .exerciseHeader {
+    margin: 0 10px 10px 10px;
+}
+
+.exerciseHeader {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    
+
+
+}
+
+.exerciseHeaderLogo {
+    width: 200px;
+    height: 80px;
+}
+
+
+.exerciseHeaderNav {
+    display: grid;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.exerciseHeaderNav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.exerciseHeaderNav ul li {
+    list-style-type: none;
+
+}
+
+
+.exerciseMainContent {
+    margin-bottom: 10px;
+}
+
+
+.exerciseAdditionalFeatures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px; 
+
+}
+
+.exerciseAdditionalFeatures .exerciseMarketingFeature {
+
+
+}
+
+.exerciseAdditionalFeatures .exerciseMarketingFeature:first-child {
+
+}
