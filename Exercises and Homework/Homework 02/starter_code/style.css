@@ -46,14 +46,14 @@ a{
   font-family: 'Merriweather', serif; 
 }
 .dp_navulparent{
-  padding: 10px;
+  padding-right: 10px;
 }
 .dp_navbarmenulist{
   display: flex;
   font-family: 'Oswald', sans-serif;
   width: 100%;
   gap: 25px;
-  justify-content: ;
+  
 }
 .dp_menu{
   list-style-type: none;
@@ -63,6 +63,12 @@ a{
   list-style:none;
   text-decoration: none;
   color:white;
+  
+}
+.dp_menulist:hover{
+  list-style:none;
+  text-decoration: none;
+  color:#f2ff00;;
   
 }
 .dp_motto_p{
@@ -111,6 +117,25 @@ span{
   text-align: center;
   width: 100%;
   border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+.dp_centerbgbutton:hover{
+  background-color:#878787;
+  text-align: center;
+  width: 100%;
+  border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+.dp_centerbgbutton a{
+  text-decoration: none ;
+}
+.dp_centerbgbutton a:link {
+    color: black;
+}   
+.dp_centerbgbutton a:visited {
+    color: black;
 }
 .dp_actionmenu{
   display: flex;
@@ -135,7 +160,25 @@ span{
   text-align: center;
   width: 100%;
   border-radius: 5px;
+  font-family: 'Lato', sans-serif;
 }
+.dp_actionmenuone_button:hover{
+  background-color: #f2ff00;
+  text-align: center;
+  width: 100%;
+  border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+}
+.dp_actionmenuone_button a{
+  text-decoration: none ;
+}
+.dp_actionmenuone_button a:link {
+    color: black;
+}   
+.dp_actionmenuone_button a:visited {
+    color: black;
+}
+
 footer{
   background-color: black;
   color: white;
