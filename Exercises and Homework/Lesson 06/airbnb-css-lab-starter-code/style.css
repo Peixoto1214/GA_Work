@@ -1,0 +1,163 @@
+body {
+  font-family: 'Nunito', Arial, sans-serif;
+  font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+main{
+  width:1000px;
+}
+.dp_airbnb_navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  height: 35px;
+}
+.dp_navbar_logo{
+  height: 25px;
+
+}
+.dp_navbar_buttons{
+  display: flex;
+}
+.dp_navbar_buttons li{
+  display: flex;
+  list-style-type: none;
+  margin-right: 15px;
+}
+.dp_navbar_buttons a{
+  text-decoration: none;
+  font-weight: 700;
+  color: black
+}
+.dp_navbar_buttons a:link{
+  color:black
+}
+.dp_navbar_buttons a:visited{
+  color: black;
+}
+
+.dp_airbnb_cta{
+  background-image: url(melbourne.jpg);
+  height: 500px;
+  opacity: .9;
+  filter: blur();
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center center;
+  
+  }
+.dp_airbnb_cta_button a{
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 25px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  box-sizing: border-box;
+}
+.dp_airbnb_cta_header{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-top: 125px;
+  width: 400px;
+  margin: 0 auto
+}
+.dp_airbnb_cta_p{
+  color: white;
+  width: 400px;
+  text-align: center;
+  padding: 0 0 0 25px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 400;
+}
+.dp_airbnb_cta_button{
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: #ff5358;
+  padding: 5px;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.dp_airbnb_cta_button:hover{
+  color: white;
+  width: 400px;
+  text-align: center;
+  padding: 0 25px 0 25px;
+  margin: 0 auto;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: #e00007;
+  padding: 5px;
+  width: 300px;
+  margin: 0 auto;
+  
+}
+.dp_airbnb_cta a{
+  
+}
+.dp_airbnb_article{
+  display: flex;
+  background-color:#efefef;
+  padding: 40px 0 40px 0;
+  justify-content: space-around;
+  gap: 10px;
+}
+.dp_articleone{
+  display: flex;
+  background-color:white;
+  
+  
+}
+.dp_airbnb_article_boxone h2{
+  background-color:#efefef;
+  padding: 10px;
+}
+.dp_airbnb_article_boxone{
+  border: 1px solid #dbdbdb ;
+  margin: 10px;
+  background-color: white;
+  
+}
+
+
+
+
+
+
+.dp_airbnb_footer{
+  background-color: black;
+  padding: 200px 0 200px 0;
+  color: white;
+  text-align: center;
+}
+
+
+/* Colors */
+/* Redish / Pink: #ff5358 */
+/* Dark red for button hover: #e00007 */
+/* Very light gray for backgrounds: #efefef */
+/* Very light gray for borders: #dbdbdb */
+/* Dark gray for footer: #0e0f0f */
+/* White for text and backgrounds: #FFFFFF */
+
+
+/* Background image links */
+/* Hero: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/melbourne.jpg */
+/* Fitzroy: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/fitzroy.jpg */
+/* St. Kilda: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/st-kilda.jpg  */
+/* CBD: https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/central-business-district.jpg */
