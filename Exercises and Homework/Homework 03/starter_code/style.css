@@ -5,29 +5,74 @@ Dark Text: #3b4144 / RGBA (59,65,68,1)*/
 /* Rules for all tags */
 li{
     list-style-type: none;
+    font-family: "lato", sans-serif;
+    color: black;
 }
 a{
     text-decoration: none;
+    color: black;
+    font-size: 14px;
 }
 
-
+/*header*/
+.dp_navbar_left a{
+    color: white;
+}
+.dp_navbar_right a{
+    color: white;
+}
 
 
 .dp_navbar{
     background-color: #20c063;
-    height: 30px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px 0 5px; 
+}
+.dp_navbar_left{
     display: flex;
     align-items: center;
 }
-.dp_navbar_logo img{
+
+.dp_navbar_left img{
     height: 25px;
-    align-items: center;
 }
-.dp_navbar_menu ul{
+.dp_navbar_left ul{
     display: flex;
     align-items: center;
+    gap: 15px;
 }
-.dp_navbar_search ul{
+.dp_navbar_right ul{
     display: flex;
     align-items:center ;
+    gap: 15px;
+}
+.dp_spancircle{
+    border: 1px white solid;
+    padding: 5px;
+    border-radius:22px
+}
+/*header*/
+/*section*/
+.dp_section_houses{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.dp_section_searchresults{
+    display: flex;
+   
+    
+}
+.dp_section_uparrow{
+    height: 15px;
+
+}
+.dp_section_housespecs{
+    display: flex;
+    align-items: center;
+    
 }
