@@ -4,14 +4,14 @@ Gray: #e8e9ea  / RGBA (232,233,234,1)
 Dark Text: #3b4144 / RGBA (59,65,68,1)*/
 /* Rules for all tags */
 li{
-    list-style-type: none;
+    list-style: none;
     font-family: "lato", sans-serif;
     color: black;
 }
 a{
     text-decoration: none;
     color: black;
-    font-size: 14px;
+    
 }
 
 /*header*/
@@ -30,6 +30,7 @@ a{
     align-items: center;
     justify-content: space-between;
     padding: 0 5px 0 5px; 
+    /*width: 100%;*/
 }
 .dp_navbar_left{
     display: flex;
@@ -55,24 +56,153 @@ a{
     border-radius:22px
 }
 /*header*/
-/*section*/
+
+/*main*/
+.dp_main_container{
+    border-radius: 0px;
+}
+.dp_main_housegrid{
+    border: 2px solid #e8e9ea;
+    height: 260px;
+    background-color: white;
+}
 .dp_section_houses{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: #e8e9ea;
+    gap: 10px;
+    
 }
-
-
 .dp_section_searchresults{
     display: flex;
-   
-    
+    width: 100%;
+    gap: 30px;
 }
 .dp_section_uparrow{
     height: 15px;
-
+    padding: 0px;
 }
-.dp_section_housespecs{
+.dp_section_bedbath h1{
+    font-size: 16px;
+    font-family: "lato", sans-serif;
+      
+}
+.dp_trulia_houseimage{
+   width: 100%;
+   max-height: 160px;
+   
+}
+.dp_section_prices{
     display: flex;
     align-items: center;
+}
+.dp_section_housespecs{
+   padding: 0px;
+}
+
+
+.dp_section_prices h1{
+    font-size: 16px;
+}
+.dp_section_detail{
+    display: flex ;
+    align-items: center;
+    justify-content: space-around;
+}
+.dp_section_bedbath{
+   display: flex;
+   padding: 0px;
+   align-items: center;
+}
+
+.dp_section_bedbath img{
+    height: 15px;
+    padding: 0px;
+}
+main li img{
+    object-fit: cover;
+}
+main li{
+    font-size: 14px;
+}
+
+    
+    
+
+/*main*/
+
+/* Section 2 */
+.dp_sectiontwo {
+    width: 100%;
+    margin-top: 20px;
+}
+.dp_sectiontwo_pages{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.dp_sectiontwo_pages ul{
+    padding: 0px;
+    margin: 0 auto;
+    
+}
+.dp_sectiontwo_location{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.dp_sectiontwo li{
+    text-align: center;
+
+
+}
+.dp_sectiontwo_text{
+    text-align: center ;
+}
+.dp_sectiontwo_text ul{
+    width: 70%;
+    margin: auto;
+    padding: 0;
+}
+.dp_sectiontwo_text ul li{
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    font-family: "lato", sans-serif;
+}
+.dp_sectiontwo_highlights{
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    width: 80%;
+    margin: 0 auto;
+}
+.dp_sectiontwo_highlights a {
+    color: #20c063;
+}
+
+/* footer */
+footer{
+    background-color: #474E52;
+    padding: 10px 0 10px 0
+}
+.dp_footer_menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+    
+}
+.dp_footer_menu li{
+    margin: 0 auto;
+    
+}
+.dp_footer_menu li a {
+    color: white;
+}
+.dp_footer_copyright{
+    color: white;
+    text-align: center;
     
 }
