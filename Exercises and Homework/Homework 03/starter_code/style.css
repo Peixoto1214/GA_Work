@@ -63,8 +63,9 @@ a{
 }
 .dp_main_housegrid{
     border: 2px solid #e8e9ea;
-    height: 260px;
+    min-height: 260px;
     background-color: white;
+    border-radius: 5px;
 }
 .dp_section_houses{
     display: grid;
@@ -125,7 +126,106 @@ main li img{
 main li{
     font-size: 14px;
 }
-
+.dp_image_1{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-1.jpg);
+    min-height: 250px;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.dp_image_2{
+    
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-2.jpg);
+    min-height: 250px;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.dp_image_3{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-3.jpg);
+    min-height: 250px;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.dp_image_4{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-4.jpg);
+    min-height: 250px;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.dp_image_5{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-5.jpg);
+    min-height: 250px;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.dp_image_6{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-6.jpg);
+    min-height: 250px;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.dp_image_7{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-7.jpg);
+    min-height: 250px;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.dp_image_8{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-8.jpg);
+    min-height: 250px;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.dp_image_9{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-09.jpg);
+    min-height: 250px;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.dp_image_10{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-10.jpg);
+    min-height: 250px;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.dp_image_11{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-11.jpg);
+    min-height: 250px;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.dp_image_12{
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/house-12.jpg);
+    min-height: 250px;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.dp_newbox{
+    background-color: #20c063;
+    color: white;
+    width: 40px;
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+}
+.dp_saleby{
+    background-color: #e8e9ea;
+    color: white;
+    width: 90px;
+    text-transform:uppercase;
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+}
     
     
 
@@ -133,25 +233,28 @@ main li{
 
 /* Section 2 */
 .dp_sectiontwo {
-    width: 100%;
+    width: ;
     margin-top: 20px;
 }
 .dp_sectiontwo_pages{
     display: flex;
     align-items: center;
-    
-    
+    width: 300px;
 }
-
-.dp_sectiontwo_pages ul{
+/*.dp_sectiontwo_pages ul{
     padding: 0px;
     margin: 0 auto;
-    
-}
+}*/
 .dp_sectiontwo_location{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0px;
+    width: 800px;
+    
+}
+
+.dp_sectiontwo_location a {
+    color:#20c063;
 }
 .dp_sectiontwo li{
     text-align: center;
@@ -162,12 +265,13 @@ main li{
     text-align: center ;
 }
 .dp_sectiontwo_text ul{
-    width: 70%;
+    
     margin: auto;
     padding: 0;
 }
 .dp_sectiontwo_text ul li{
-    padding: 20px;
+    padding-top: 20px ;
+    padding-bottom: 20px;
     margin: auto;
     text-align: center;
     font-family: "lato", sans-serif;
