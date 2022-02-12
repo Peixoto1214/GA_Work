@@ -82,10 +82,29 @@ console.log(addNumbers(6, "dogs"));
 // Returns a string that is the combination of "Hello, " + the argument passed into the function
 // So sayHello("Paul") would return "Hello, Paul";
 
-function sayHello(theName){
-    let output ="Hello, " + theName;
+//function combineNames(theName){
+   // let output ="Hello, " + theName;
 
+    //return output;
+
+//}
+ //console.log(sayHello("Daniel"));
+
+ // test
+
+ //to combine first and last names in the console
+
+ function combineNames(firstName){
+    let output=firstName + " " + lastName
     return output;
+ }
+ //function otherName(lastName){
+   // let output=firstName + " " + lastName
+    //return output;
+     
+ //}
+ let firstName="Micah";
+ let lastName="Collins";
 
-}
- console.log(sayHello("Daniel"));
+ 
+ console.log(combineNames(firstName,lastName));
