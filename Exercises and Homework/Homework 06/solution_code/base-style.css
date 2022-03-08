@@ -204,6 +204,7 @@ a {
   .trulia-nav-left ul li,
   .trulia-nav-right ul li {
     display: block;
+    margin: 0;
     }
   
   .trulia-nav-item,
